@@ -1,4 +1,16 @@
 #Big Data Query & Analysis by Apache Hive
 Module 3: Big Data Analytics
 
-Task 2: Big Data Query & Analysis by Apache Hive
+*Task 2: Big Data Query & Analysis by Apache Hive*
+--------------
+
+This task is using Apache Hive for converting big raw data into useful information for the 
+end users. To do so, 
+
+--- Firstly understand the dataset carefully. 
+--- Then, make at least 4 Hive queries (refer to the marking scheme). 
+--- Apply appropriate visualization tools to present your findings numerically and graphically. Interpret shortly your findings.
+--- Finally, take screenshot of your outcomes (e.g., tables and plots) together with the scripts/queries into the report.
+
+*Hive Queries*
+Query 1: 
