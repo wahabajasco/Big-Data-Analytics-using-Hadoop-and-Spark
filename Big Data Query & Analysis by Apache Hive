@@ -1,8 +1,6 @@
-#Big Data Query & Analysis by Apache Hive
-Module 3: Big Data Analytics
-
-*Task 2: Big Data Query & Analysis by Apache Hive*
---------------
+#Task 2:  
+Big Data Query & Analysis by Apache Hive
+-----------------
 
 This task is using Apache Hive for converting big raw data into useful information for the 
 end users. To do so, 
@@ -12,5 +10,14 @@ end users. To do so,
 --- Apply appropriate visualization tools to present your findings numerically and graphically. Interpret shortly your findings.
 --- Finally, take screenshot of your outcomes (e.g., tables and plots) together with the scripts/queries into the report.
 
-*Hive Queries*
+Hive Queries
 Query 1: 
+
+SELECT srcip AS SourceIP,
+SUM(spkts) AS Totalpacketreceived,
+SUM(dpkts) AS Totalpacketsent,
+COUNT(label) AS Numberofconnections
+FROM UNSWNB15
+GROUP BY srcip
+ORDER BY srcip DESC
+LIMIT 10;
