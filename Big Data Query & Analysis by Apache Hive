@@ -1,5 +1,5 @@
-**#Task 2:**  
-_Big Data Query & Analysis by Apache Hive_
+#Task 2:  
+Big Data Query & Analysis by Apache Hive
 -----------------
 
 This task is using Apache Hive for converting big raw data into useful information for the 
@@ -19,5 +19,5 @@ SUM(dpkts) AS Totalpacketsent,
 COUNT(label) AS Numberofconnections
 FROM UNSWNB15
 GROUP BY srcip
-ORDER BY srcip DESC
+ORDER BY Numberofconnections DESC
 LIMIT 10;
