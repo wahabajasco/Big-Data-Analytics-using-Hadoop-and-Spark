@@ -2,7 +2,7 @@
 Module 3: Big Data Analytics Final Project
 
 Tasks 1:
-(1) Understanding Dataset: UNSW-NB15
+Understanding Dataset: UNSW-NB15
 ------------------
 
 In 2015, the UNSW-NB15 computer network security dataset was released (Moustafa & Slay, 2015). This dataset contains 2,540,044 realistic modern normal and abnormal (attack) network activities. IXIA traffic generator used three virtual servers to collect these records. Two servers were set up to distribute normal network traffic, while the third was set up to generate abnormal network traffic. The Argus and Bro-IDS tools extracted 49 features from raw network packets, including packet-based and flow-based features. The packet header and payload are used to extract packet-based features (also called packet data). Flow-based features, on the other hand, are created by sequencing packets as they travel through the network from a source to a destination (Zoghi & Serpen, 2020). 
